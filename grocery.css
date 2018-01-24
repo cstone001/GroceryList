@@ -1,0 +1,9 @@
+#items .got {
+  text-decoration:line-through;
+}
+#items .need, .got {
+  cursor: pointer;
+}
+ul li {
+  list-style: none;
+}
