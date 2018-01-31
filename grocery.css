@@ -1,14 +1,17 @@
 #items .got {
   text-decoration:line-through;
+  color: #000;
 }
 #items .need, .got {
   cursor: pointer;
-}
-ul li {
-  list-style: none;
+  font-family: Chalkduster, 'Bradley Hand', cursive;
+  font-size: 20px;
   color: #fff;
   text-align: center;
   padding-top: 20px;
+}
+ul li {
+  list-style: none;
 }
 .jumbotron {
   background: #fff url("Images/pexels-photo-616404.jpeg") no-repeat;
