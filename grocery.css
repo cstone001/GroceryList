@@ -5,7 +5,7 @@
 #items .need, .got {
   cursor: pointer;
   font-family: Chalkduster, 'Bradley Hand', cursive;
-  font-size: 20px;
+  font-size: 25px;
   color: #fff;
   text-align: center;
   padding-top: 20px;
@@ -26,6 +26,8 @@ ul li {
 
 .jumbotron h1 {
   margin: 0;
+  font-family: 'Bradley Hand', cursive;
+  font-size: 55px;
 }
 
 #groceryList {
