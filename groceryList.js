@@ -5,3 +5,11 @@ function undoStrike(neededItems){
         neededItems.className = 'got';
     }
 }
+
+function addItem() {
+  var newItem = document.createElement("li");
+  var input = document.getElementById("Input");
+  newItem.innerHTML = input.value;
+  input.value = "";
+  document.getElementById("items").appendChild(newItem);
+}
