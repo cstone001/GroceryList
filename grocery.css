@@ -7,7 +7,6 @@
   font-family: Chalkduster, 'Bradley Hand', cursive;
   font-size: 25px;
   color: #fff;
-  text-align: center;
   padding-top: 20px;
 }
 ul li {
@@ -35,4 +34,5 @@ ul li {
     margin-top: -32px;
     padding-bottom: 25%;
     background-size: cover;
+    text-align: center;
 }
