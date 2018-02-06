@@ -12,4 +12,8 @@ function addItem() {
   newItem.innerHTML = input.value;
   input.value = "";
   document.getElementById("items").appendChild(newItem);
+    
+  var sheet = document.createElement('style')
+  sheet.innerHTML = "li {color: #fff; cursor: pointer; font-family: Chalkduster, 'Bradley Hand', cursive; font-size: 25px; padding-top: 20px;}";
+  document.body.appendChild(sheet);
 }
