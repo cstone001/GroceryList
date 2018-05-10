@@ -14,27 +14,32 @@
     </div>
 
     <div id="groceryList">
-      <ul id="items">
-        <li class="need" onclick="undoStrike(this,'got')">Apples</li>
-        <li class="need" onclick="undoStrike(this,'got')">Pasta</li>
-        <li class="need" onclick="undoStrike(this,'got')">Chips</li>
-        <li class="need" onclick="undoStrike(this,'got')">Milk</li>
-        <li class="need" onclick="undoStrike(this,'got')">Soup</li>
-        <li class="need" onclick="undoStrike(this,'got')">Bread</li>
-        <li class="need" onclick="undoStrike(this,'got')">Cereal</li>
-        <li class="need" onclick="undoStrike(this,'got')">Eggs</li>
-        <li class="need" onclick="undoStrike(this,'got')">Broccoli</li>
-        <li class="need" onclick="undoStrike(this,'got')">Cheese</li>
-        <li class="need" onclick="undoStrike(this,'got')">Salmon</li>
-        <li class="need" onclick="undoStrike(this,'got')">Rice</li>
+      <ul class="slide-fade" id="items">
+        <li class="need">Apples</li>
+        <li class="need">Pasta</li>
+        <li class="need">Chips</li>
+        <li class="need">Milk</li>
+        <li class="need">Soup</li>
+        <li class="need">Bread</li>
+        <li class="need">Cereal</li>
+        <li class="need">Eggs</li>
+        <li class="need">Broccoli</li>
+        <li class="need">Cheese</li>
+        <li class="need">Salmon</li>
+        <li class="need">Rice</li>
       </ul>
       <div>
-        <input type = "text" id = "Input" maxlength = "42" size = "42" placeholder = " Add an item here">
-        <input type = "button" value = "Add Item" onclick="addItem()">
+        <div id="alert"></div>
+        <form id="form" action="#" method="POST">
+          <input type = "text" id = "Input" maxlength = "42" size = "42" placeholder = " Add an item here">
+          <input type = "button" id="add" value = "Add Item">
+          <button id="clear">Clear All</button> 
+        </form>  
       </div>     
     </div>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="groceryList.js"></script>
   </body>
 </html>
