@@ -4,12 +4,12 @@ body {
   background-attachment: fixed;
   text-align: center; }
 
-.jumbotron-fluid {
+.jumbotron {
   background: #fff url("../Images/vegetable-border.jpeg") no-repeat;
   background-size: 100% 100%;
   height: 250px;
   }
-  .jumbotron-fluid h1 {
+  .jumbotron h1 {
     font-family: "Bradley Hand", cursive;
     font-size: 55px;
     position: relative;
@@ -20,6 +20,8 @@ body {
   padding: 2.5% 0; }
 
 .slide-fade li {
+  height: 0;
+  margin: 0;
   overflow: hidden;
   transition: all 2s ease-out;
   opacity: 0;
