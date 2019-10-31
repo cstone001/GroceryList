@@ -1,0 +1,49 @@
+/*COLORS*/
+$text-color: rgb(255, 255, 255);
+$background-color-jumbo: #fff;
+$background-color: #000;
+
+/*FONTS*/
+$jumbo-font: 'Bradley Hand', cursive;
+$chalk-font: Chalkduster, 'Bradley Hand', cursive;
+
+body {
+    background: $background-color url("../Images/Brown-Paper-Bag-Texture-image-Fiaw.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.jumbotron-fluid {
+    background: $background-color-jumbo url("../Images/pexels-photo-616404.jpeg") no-repeat;
+    background-size: 100% 100%;
+    height: 250px;
+    h1 {
+        font-family: $jumbo-font;
+        font-size: 55px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+#groceryList {
+    padding: 2.5% 0;
+}
+
+.slide-fade li {
+    overflow: hidden; 
+    transition: all 2s ease-out;
+    opacity: 0;
+
+    cursor: pointer;
+    font-family: $chalk-font;
+    font-size: 25px;
+    color: $background-color-jumbo;
+    list-style: none;
+
+    &.need {
+        opacity: 1;
+        height: 2em;
+    }
+}
